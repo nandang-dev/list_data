@@ -267,7 +267,7 @@ class _ListDataComponentState<T> extends State<ListDataComponent<T>> {
                         Text(
                           widget.showMoreText ?? "Show More",
                         ),
-                        const Icon(
+                        const FaIcon(
                           FontAwesomeIcons.chevronDown,
                           size: 15,
                         )
@@ -535,7 +535,7 @@ class _ListDataComponentState<T> extends State<ListDataComponent<T>> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          const Icon(
+          const FaIcon(
             FontAwesomeIcons.exclamationTriangle,
             color: Colors.red,
             size: 50,
@@ -578,7 +578,7 @@ class _ListDataComponentState<T> extends State<ListDataComponent<T>> {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      const Icon(
+                      const FaIcon(
                         FontAwesomeIcons.database,
                         size: 50,
                       ),
